@@ -18,6 +18,7 @@
 		B1FA250119EA500700E1BE59 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA250019EA500700E1BE59 /* SignInRootViewController.swift */; };
 		B1FA250319EA52C100E1BE59 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA250219EA52C100E1BE59 /* SignInViewController.swift */; };
 		B1FA250519EA610C00E1BE59 /* TOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA250419EA610C00E1BE59 /* TOSViewController.swift */; };
+		B1FA250719EBA8FE00E1BE59 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA250619EBA8FE00E1BE59 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		B1FA250019EA500700E1BE59 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 		B1FA250219EA52C100E1BE59 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		B1FA250419EA610C00E1BE59 /* TOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TOSViewController.swift; sourceTree = "<group>"; };
+		B1FA250619EBA8FE00E1BE59 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				B1FA24FD19EA45F500E1BE59 /* View Controllers */,
-				B1FA24DB19EA066500E1BE59 /* AppDelegate.swift */,
-				B1FA24DD19EA066500E1BE59 /* ViewController.swift */,
 				B1FA24DF19EA066500E1BE59 /* Main.storyboard */,
 				B1FA24E219EA066500E1BE59 /* Images.xcassets */,
 				B1FA24E419EA066500E1BE59 /* LaunchScreen.xib */,
@@ -126,6 +126,9 @@
 		B1FA24FD19EA45F500E1BE59 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B1FA250619EBA8FE00E1BE59 /* SettingsViewController.swift */,
+				B1FA24DD19EA066500E1BE59 /* ViewController.swift */,
+				B1FA24DB19EA066500E1BE59 /* AppDelegate.swift */,
 				B1FA24FE19EA49D700E1BE59 /* CreateAccountRootViewController.swift */,
 				B1FA250019EA500700E1BE59 /* SignInRootViewController.swift */,
 				B1FA24FB19EA456900E1BE59 /* CreateAccountViewController.swift */,
@@ -242,6 +245,7 @@
 				B1FA24DE19EA066500E1BE59 /* ViewController.swift in Sources */,
 				B1FA250119EA500700E1BE59 /* SignInRootViewController.swift in Sources */,
 				B1FA24DC19EA066500E1BE59 /* AppDelegate.swift in Sources */,
+				B1FA250719EBA8FE00E1BE59 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
