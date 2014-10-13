@@ -13,6 +13,11 @@
 		B1FA24E319EA066500E1BE59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1FA24E219EA066500E1BE59 /* Images.xcassets */; };
 		B1FA24E619EA066500E1BE59 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1FA24E419EA066500E1BE59 /* LaunchScreen.xib */; };
 		B1FA24F219EA066500E1BE59 /* DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA24F119EA066500E1BE59 /* DropboxTests.swift */; };
+		B1FA24FC19EA456900E1BE59 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA24FB19EA456900E1BE59 /* CreateAccountViewController.swift */; };
+		B1FA24FF19EA49D700E1BE59 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA24FE19EA49D700E1BE59 /* CreateAccountRootViewController.swift */; };
+		B1FA250119EA500700E1BE59 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA250019EA500700E1BE59 /* SignInRootViewController.swift */; };
+		B1FA250319EA52C100E1BE59 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA250219EA52C100E1BE59 /* SignInViewController.swift */; };
+		B1FA250519EA610C00E1BE59 /* TOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA250419EA610C00E1BE59 /* TOSViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		B1FA24EB19EA066500E1BE59 /* DropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1FA24F019EA066500E1BE59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1FA24F119EA066500E1BE59 /* DropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxTests.swift; sourceTree = "<group>"; };
+		B1FA24FB19EA456900E1BE59 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		B1FA24FE19EA49D700E1BE59 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		B1FA250019EA500700E1BE59 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		B1FA250219EA52C100E1BE59 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		B1FA250419EA610C00E1BE59 /* TOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TOSViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,7 @@
 		B1FA24D819EA066500E1BE59 /* Dropbox */ = {
 			isa = PBXGroup;
 			children = (
+				B1FA24FD19EA45F500E1BE59 /* View Controllers */,
 				B1FA24DB19EA066500E1BE59 /* AppDelegate.swift */,
 				B1FA24DD19EA066500E1BE59 /* ViewController.swift */,
 				B1FA24DF19EA066500E1BE59 /* Main.storyboard */,
@@ -110,6 +121,18 @@
 				B1FA24F019EA066500E1BE59 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1FA24FD19EA45F500E1BE59 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B1FA24FE19EA49D700E1BE59 /* CreateAccountRootViewController.swift */,
+				B1FA250019EA500700E1BE59 /* SignInRootViewController.swift */,
+				B1FA24FB19EA456900E1BE59 /* CreateAccountViewController.swift */,
+				B1FA250219EA52C100E1BE59 /* SignInViewController.swift */,
+				B1FA250419EA610C00E1BE59 /* TOSViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +235,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1FA24FF19EA49D700E1BE59 /* CreateAccountRootViewController.swift in Sources */,
+				B1FA24FC19EA456900E1BE59 /* CreateAccountViewController.swift in Sources */,
+				B1FA250319EA52C100E1BE59 /* SignInViewController.swift in Sources */,
+				B1FA250519EA610C00E1BE59 /* TOSViewController.swift in Sources */,
 				B1FA24DE19EA066500E1BE59 /* ViewController.swift in Sources */,
+				B1FA250119EA500700E1BE59 /* SignInRootViewController.swift in Sources */,
 				B1FA24DC19EA066500E1BE59 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Dropbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Dropbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
