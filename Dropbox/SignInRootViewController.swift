@@ -10,17 +10,9 @@ import UIKit
 
 class SignInRootViewController: UIViewController {
     
-    
-    @IBAction func CreateAccountSegue(sender: AnyObject) {
-        performSegueWithIdentifier("CreateAccountSegue", sender: self)
-    }
-
-    @IBAction func SignInSegue(sender: AnyObject) {
-        performSegueWithIdentifier("SignInSegue", sender: self)
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        performSegueWithIdentifier("SignInSegue", sender: self)
         // Do any additional setup after loading the view.
     }
 

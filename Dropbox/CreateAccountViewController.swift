@@ -11,7 +11,7 @@ import UIKit
 class CreateAccountViewController: UIViewController {
 
     @IBAction func BackButton(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: nil)
+        navigationController!.popViewControllerAnimated(true)
     }
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -53,8 +53,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="CreateNewSegue:" destination="MaK-K9-ggf" eventType="touchUpInside" id="GMI-LQ-U3e"/>
-                                    <segue destination="FEr-Se-uJ0" kind="modal" identifier="CreateAccountSegue" id="af1-a4-phz"/>
+                                    <segue destination="FEr-Se-uJ0" kind="push" identifier="CreateAccountSegue" id="af1-a4-phz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VSF-xI-ohq">
@@ -64,8 +63,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="SignInSegue:" destination="MaK-K9-ggf" eventType="touchUpInside" id="MM5-1B-KTL"/>
-                                    <segue destination="KFd-ft-56Y" kind="modal" identifier="SignInSegue" id="Pvz-dd-rY9"/>
+                                    <segue destination="KFd-ft-56Y" kind="push" identifier="SignInSegue" id="Pvz-dd-rY9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -106,12 +104,13 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="CgS-rn-6eP" kind="modal" animates="NO" id="sZH-1e-YwM"/>
+                                    <segue destination="CgS-rn-6eP" kind="push" id="sZH-1e-YwM"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Cx3-d0-meJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ibn-hG-FcF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -136,12 +135,13 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="g2M-X3-jPK" kind="modal" animates="NO" id="Coq-5z-sCS"/>
+                                    <segue destination="g2M-X3-jPK" kind="push" id="Coq-5z-sCS"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Vxm-PR-das"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WRZ-w1-ST6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -166,12 +166,13 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Twl-1a-Ada" kind="modal" animates="NO" id="NTs-Ls-7i8"/>
+                                    <segue destination="Twl-1a-Ada" kind="push" id="NTs-Ls-7i8"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="GlW-0C-KTj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jxm-qJ-zEo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -233,12 +234,13 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="tw1-6H-IEK" kind="modal" animates="NO" id="NbA-0a-qX5"/>
+                                    <segue destination="tw1-6H-IEK" kind="push" id="NbA-0a-qX5"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ghV-JG-gfa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EOf-te-Zxb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -263,12 +265,13 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="f9x-fR-pEJ" kind="modal" id="eJU-ef-YDR"/>
+                                    <segue destination="f9x-fR-pEJ" kind="push" id="eJU-ef-YDR"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="334-SG-8GS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yqc-R1-SVA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -309,6 +312,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="YbD-yg-eHn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3lp-FK-jSF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -447,12 +451,13 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="KFd-ft-56Y" kind="modal" animates="NO" id="P23-OI-Pll"/>
+                                    <segue destination="KFd-ft-56Y" kind="push" id="P23-OI-Pll"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="rMK-b1-tx8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YQO-Wp-d8m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -477,12 +482,13 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="XGk-wy-iJ5" kind="modal" animates="NO" id="vOr-qP-Kwz"/>
+                                    <segue destination="XGk-wy-iJ5" kind="push" id="vOr-qP-Kwz"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="TjK-AB-nyJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="shw-0U-DAz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -507,8 +513,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="SignInSegue:" destination="WCv-XW-Gq9" eventType="touchUpInside" id="EFd-aX-ngC"/>
-                                    <segue destination="KFd-ft-56Y" kind="modal" identifier="SignInSegue" id="AMF-J2-602"/>
+                                    <segue destination="KFd-ft-56Y" kind="push" identifier="SignInSegue" id="AMF-J2-602"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KaG-W3-l5w">
@@ -518,8 +523,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="CreateAccountSegue:" destination="WCv-XW-Gq9" eventType="touchUpInside" id="lZ6-rD-xGd"/>
-                                    <segue destination="FEr-Se-uJ0" kind="modal" identifier="CreateAccountSegue" id="GPV-qr-XIR"/>
+                                    <segue destination="FEr-Se-uJ0" kind="push" identifier="CreateAccountSegue" id="GPV-qr-XIR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -560,7 +564,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="erx-UM-WiW" kind="modal" animates="NO" id="a4C-Kf-ArE"/>
+                                    <segue destination="erx-UM-WiW" kind="push" id="a4C-Kf-ArE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4hE-ue-Uqw" userLabel="KeyboardButton">
@@ -570,12 +574,13 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="xNq-LC-zfI" kind="modal" animates="NO" id="I8Q-aJ-Teq"/>
+                                    <segue destination="xNq-LC-zfI" kind="push" id="I8Q-aJ-Teq"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="c6L-L5-1I1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ke-sq-2H3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -758,6 +763,7 @@
         <scene sceneID="2gS-xd-CKi">
             <objects>
                 <tabBarController id="f9x-fR-pEJ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="rj9-bl-gLH"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="bfR-Ek-8O5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
@@ -828,7 +834,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="GPV-qr-XIR"/>
+        <segue reference="af1-a4-phz"/>
         <segue reference="P23-OI-Pll"/>
     </inferredMetricsTieBreakers>
 </document>
