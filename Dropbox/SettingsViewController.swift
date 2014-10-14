@@ -8,12 +8,14 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+class SettingsViewController: UIViewController, UIScrollViewDelegate {
 
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var scrollView: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        scrollView.contentSize = imageView.image!.size
+        scrollView.delegate = self
         // Do any additional setup after loading the view.
     }
 
