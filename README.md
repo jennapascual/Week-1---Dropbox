@@ -14,3 +14,5 @@ User can log out from the Settings screen.
 User can follow the sign in flow.
 User can tap the area for "Having trouble signing in?"
 User can log out from the Settings screen.
+
+https://github.com/jennapascual/Week-1---Dropbox/blob/master/dropbox.gif
